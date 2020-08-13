@@ -7,8 +7,8 @@ spring:
          username: root
          password: root
          driver-class-name: com.mysql.jdbc.Driver
-  jpa:
-  database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+jpa:
+database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 eureka:
    client:
       serviceUrl:
