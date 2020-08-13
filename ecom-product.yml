@@ -15,4 +15,4 @@ ecom:
          vhost: /
          exchange: Ecom-exchange
          queue: Ecom-product-queue
-         product.img.location: D:/work/study/workspace/microservices.patterns/owen_chapter17/chapter17-01/Ax2-Ecom-No-Security/productImg/
+  product.img.location: D:/work/study/workspace/microservices.patterns/owen_chapter17/chapter17-01/Ax2-Ecom-No-Security/productImg/
