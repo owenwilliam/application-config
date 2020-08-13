@@ -9,6 +9,9 @@ spring:
          driver-class-name: com.mysql.jdbc.Driver
    jpa:
       database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      hibernate:
+        ddl-auto: update
+      show-sql: true
 eureka:
    client:
       serviceUrl:
