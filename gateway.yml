@@ -2,32 +2,25 @@ zuul:
    routes:
       ecom-core:
          path: /core/∗∗
-         service-id: ecom-core
-         strip-prefix: false
+         service-id: core
       ecom-user:
          path: /customer/∗∗
-         service-id: ecom-user
-         strip-prefix: false
+         service-id: user
       ecom-cart:
          path: /cart/∗∗
-         service-id: ecom-cart
-         strip-prefix: false
+         service-id: cart
       ecom-product:
          path: /product/∗∗
-         service-id: ecom-product
-         strip-prefix: false
+         service-id: product
       ecom-history:
          path: /orderhistory/∗∗
-         service-id: ecom-history
-         strip-prefix: false
+         service-id: history
       ecom-delivery:
          path: /delivery/∗∗
-         service-id: ecom-delivery
-         strip-prefix: false
+         service-id: delivery
       ecom-shipping:
          path: /shipping/∗∗
-         service-id: ecom-shipping
-         strip-prefix: false
+         service-id: shipping
 eureka:
    client:
       serviceUrl:
