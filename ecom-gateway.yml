@@ -1,4 +1,6 @@
 zuul:
+   ignoredServices: '*'
+   prefix: /api
    routes:
       ecom-core:
          path: /core/∗∗
@@ -28,6 +30,13 @@ zuul:
          path: /shipping/∗∗
          service-id: ecom-shipping
          strip-prefix: false
+         
+endpoints:
+  routes:
+    sensitive: false
+  trace:
+    sensitive: false
+    
 eureka:
    client:
       serviceUrl:
